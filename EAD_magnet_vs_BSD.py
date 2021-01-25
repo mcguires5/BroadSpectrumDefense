@@ -46,9 +46,9 @@ import matplotlib.pyplot as plt
 import eagerpy as ep
 import cleverhans
 # from Networks.MNIST import Net, DefendedClassifier
-from Datasets.occupancy_dataset import occupancyDataset
-from Networks.CIFAR10 import Net, CNN, StandardCIFAR10
-from Networks.MNIST import Net, StandardMNIST
+
+from Networks.CIFAR10 import StandardCIFAR10
+from Networks.MNIST import StandardMNIST
 from Networks.occupancy import occupancy_classifier
 from Networks.ResNet import ResNet18
 from AttackedData.CWAttack.pytorch_cw2 import AttackCarliniWagnerL2
